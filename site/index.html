@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <img id="main-cat" class="cat-image" src="./img/cat_1.gif" alt="" />
+  </main>
+
+  <script>
+    const mainCat = document.getElementById("main-cat");
+
+    setTimeout(() => {
+      mainCat.src = "./img/cat_2.gif";
+    }, 2000);
+  </script>
+</body>
+</html>
